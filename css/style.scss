@@ -1,0 +1,132 @@
+
+
+.fstcontainer{
+    background-color:#d4eefa;
+    width:100vw;
+    height:100vh;
+    border-bottom-right-radius:0%;
+   
+}
+
+.maincontainer
+{
+margin-top:60% ;
+
+}
+
+.myimgecont
+{
+    width: 30vw;
+    height: 30vh;
+    padding-top:200px;
+    padding-left:90px;
+    transform:rotate(45deg);
+
+
+    animation-name:myname;
+    animation-duration:1s;
+    animation-delay:1s ;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in;
+}
+
+
+@keyframes myname {
+
+    0%
+    {
+        width: 10vw;
+    height: 20vh;
+        
+    }
+    20%
+    {
+        width: 10vw;
+        height: 80vh;
+        
+
+    }
+}
+
+.mypic
+{
+    transform:rotate(318deg);  
+    margin-left:40px;
+}
+
+
+.hh
+{
+
+    font-size: 100px;
+    font-weight:700;
+    font-family:Poppins;
+}
+
+.textcontanten
+{
+    padding-left:150px ;
+    padding-top:150px;
+    font-weight:bold;
+}
+.about
+{
+position: absolute;
+left: 450px;
+top:130%;
+background-color:orangered;
+width: 250px;
+height: 65vh;
+line-height:15px;
+}
+
+.aboutfstcont
+{
+    background-color:light;
+    height: auto;
+}
+.abouttext
+{
+    font-family:poppins;
+    font-size:140px;
+    font-weight:bold;
+}
+$fontfamily:roboto;
+.texthead
+{
+    font-size: 200px;
+    font-weight:bold;
+   
+    
+}
+
+$width:600px;
+$height:60vh;   
+$btn:orangered;
+
+
+.aboutextcolor
+{
+    color: orangered;
+    font-weight:bold;
+
+}
+
+.aboutpic
+{
+height:$height;
+width:$width;
+
+}
+
+.btnabout
+{
+    background-color:$btn;
+
+}
+
+.skillhead
+{
+    font-size: 60px;
+    font-weight: bold;
+}
